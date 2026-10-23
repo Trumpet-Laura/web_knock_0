@@ -31,7 +31,7 @@ SSHキーの登録。
 ```
 % ssh -T git@github.com
 The authenticity of host 'github.com (20.27.177.113)' can't be established.
-ED25519 key fingerprint is SHA256:*******
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
 This key is not known by any other names.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? いyes
 Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
@@ -58,7 +58,7 @@ The key's randomart image is:
 |      oo.  .. o. |
 +----[SHA256]-----+
 % cat ~/.ssh/id_ed25519.pub
-ssh-ed25519 ********* ******@gmail.com
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAx7uWnX33y9QSZncXZsuKqyrQfcGwrYicAzs3itjyzL ******@gmail.com
 
 % ssh -T git@github.com
 Hi Trumpet-Laura! You've successfully authenticated, but GitHub does not provide shell access.
